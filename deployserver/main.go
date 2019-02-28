@@ -8,7 +8,7 @@ import (
 )
 
 func reLaunch()  {
-	cmd := exec.Command("./deploy.sh")
+	cmd := exec.Command("sh","./deploy.sh")
 	err := cmd.Start()
 	if nil != err {
 		fmt.Println(err)
