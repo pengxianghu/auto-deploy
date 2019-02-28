@@ -6,7 +6,7 @@ import (
 )
 
 func action(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "<h1>wwwwww</h1>")
+	io.WriteString(w, "<h1>1234567890</h1>")
 }
 
 
