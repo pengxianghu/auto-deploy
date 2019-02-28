@@ -2,6 +2,6 @@
 
 kill -9 $(pgrep webserver)
 cd ~/auto-deploy
-git pull https://github.com/pengxianghu/auto-deploy.git
+git pull
 cd webserver
 ./webserver &
